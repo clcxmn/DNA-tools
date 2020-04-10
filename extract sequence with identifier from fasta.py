@@ -1,3 +1,5 @@
+#extract a sequence flanked by short sequences or identifiers ('6799963.1' and '>' in this case) from seq in file 'Annotations' 
+
 with open('Annotations.genomic.txt','r') as file:
     wc=file.read()
 b=[]
