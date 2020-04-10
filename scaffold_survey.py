@@ -1,10 +1,9 @@
 """
 Function returns sub-sequences of a chosen length (le) within intervals of a
 chosen length (itvl) across an entire sequence/scaffold (scaf) organized in
-a dictonary format in order from the beginning to the end of the scaffold
+a list format in order from the beginning to the end of the scaffold
 
-saves dictionary into desired directory as seperate file which must be
-accessed using eval function
+saves list into desired directory as string
 """
 
 #replace ls_orchid with sequence of choice, file goes in same folder as program
@@ -23,9 +22,8 @@ def scaf_survey(scaf,le,itvl):
     for i in b:
         b[i].append('\n\n\n')
         d.append(''.join(b[i]))
-    final=''.join(d)
     with open('C:/Users/user/Documents/post_survey','w') as data:
-        data.write(str(final))
+        data.write(str(d))
 
 
 scaf_survey(data,1000,10000)
