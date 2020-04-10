@@ -6,7 +6,7 @@ a list format in order from the beginning to the end of the scaffold
 saves list into desired directory as string
 """
 
-#replace ls_orchid with sequence of choice, file goes in same folder as program
+#replace 'cleanseq' with sequence of choice, file goes in same folder as program
 with open('cleanseq','r') as file:
     data=file.read()
 
