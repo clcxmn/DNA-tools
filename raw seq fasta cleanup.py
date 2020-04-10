@@ -3,7 +3,7 @@ with open('anno.txt','r') as file:
 
 """
 remove everything from FASTA except, A,T,C, and G, and indents (\n) since
-the file becomes practically unreadable if the whole genome is in one line
+the file becomes practically unreadable in notepad if the whole genome is in one line
 """
 
 li=list(data)
